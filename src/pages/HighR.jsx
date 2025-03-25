@@ -1,6 +1,6 @@
 import React from 'react';
-import cReview from '../assets/highwayOne.webp';
 import cReview2 from '../assets/highWayTwo.webp';
+import cReview from '../assets/hr2.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';

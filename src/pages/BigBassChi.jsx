@@ -1,7 +1,6 @@
 import React from 'react';
-import cReview from '../assets/bbcBg.webp';
+import cReview from '../assets/bbbc2.jpg';
 import cReview2 from '../assets/bbcBg2.webp';
-import cReview3 from '../assets/casinoClick.jpg';
 import Footer from './Footer';
 import Header from './Header';
 

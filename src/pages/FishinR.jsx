@@ -1,5 +1,5 @@
 import React from 'react';
-import cReview from '../assets/fishbgOne.webp';
+import cReview from '../assets/fbs4.png';
 import cReview1 from '../assets/fishbgTwo.webp';
 import Footer from './Footer';
 import Header from './Header';

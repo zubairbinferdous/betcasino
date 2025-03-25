@@ -3,8 +3,8 @@ import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';
 import ybet from '../assets/ybet.webp';
+import cReview from '../assets/zes2.jpg';
 import cReview2 from '../assets/zesuBgone.webp';
-import cReview from '../assets/zesuBgtwo.webp';
 import Footer from './Footer';
 import Header from './Header';
 const ZesuR = () => {

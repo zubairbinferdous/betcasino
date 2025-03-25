@@ -1,7 +1,8 @@
 import React from 'react';
-import { default as cReview, default as cReview111 } from '../assets/gb1.webp';
-import cReview1 from '../assets/gb2.jpg';
-import cReview11 from '../assets/gb4.webp';
+import cReview11 from '../assets/g06.png';
+import cReview from '../assets/g11.jpeg';
+import cReview1 from '../assets/g21.avif';
+import cReview111 from '../assets/g404.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';

@@ -82,7 +82,6 @@ const router = createBrowserRouter([
     element:<BigBassR></BigBassR>
   },
 
-
   {
     path:'/bigBassBon',
     element:<BigbassBonRN></BigbassBonRN>
@@ -96,15 +95,10 @@ const router = createBrowserRouter([
     element:<BookRN></BookRN>
   },
 
-
-
-
   {
     path:'/bookBasChi',
     element:<BigBassChi></BigBassChi>
   },
-
-
 
   {
     path:'/fishin',
@@ -120,9 +114,6 @@ const router = createBrowserRouter([
     path:'/zesu',
     element:<ZesuR></ZesuR>
   },
-
-
-
 
   {
     path:'/lion',

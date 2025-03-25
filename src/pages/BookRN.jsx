@@ -1,8 +1,8 @@
 import React from 'react';
+import cReview11 from '../assets/bk05.webp';
+import cReview111 from '../assets/bk06.jpg';
 import cReview1 from '../assets/bod1.webp';
 import cReview from '../assets/bod2.jpeg';
-import cReview111 from '../assets/bod3.webp';
-import cReview11 from '../assets/bod4.webp';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';
@@ -313,7 +313,7 @@ In this Book of Dead review, you will see what makes this slot special. You will
 
                    <div className="container">
                     <div className="row">
-                    <img src={cReview} alt="" />   
+                    <img src={cReview111} alt="" />   
                     </div>
                    </div>
 
@@ -366,7 +366,7 @@ The monster truck, fishing rod, dragonfly, bait box, and Fish Money symbols are 
 
 The Wild symbol is the cheerful bearded fisherman, who has been featured in several other slots. The Scatter symbol is a hooked bass fish trying to escape by jumping out of the water. <br /> <br />
         
-        <img src={cReview1} alt="" className='img-fluid'/>
+        <img src={cReview11} alt="" className='img-fluid'/>
                 </p>
         
                 </div>
