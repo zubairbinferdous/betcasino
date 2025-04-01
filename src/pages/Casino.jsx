@@ -10,14 +10,22 @@ import Footer from "../pages/Footer";
 import Header from "../pages/Header";
 
 const Casino = () => {
+
+    const CurrentMonthYear = () => {
+        const currentDate = new Date();
+        const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+        const year = currentDate.getFullYear(); // Get year
+      
+        return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+      };
     return (
         <div>
             <Header></Header>
               <div className="container-fluid bg-g">
                    <div className="container text-area">
-                    <h5 className='text-white'>DECEMBER 2024</h5>
+                   <h5 className="text-white">{CurrentMonthYear()}</h5>
                     <h3 className="text-white mb-5">
-                    Online Casino Reviews - Top Rated Casinos in 2024</h3>  
+                    Online Casino Reviews - Top Rated Casinos in 2025</h3>  
                     <br />                  
                    </div>
              </div>
@@ -117,7 +125,7 @@ const Casino = () => {
         </div>
 
         <div className="highlight-section">
-            <p>Reviews of the Top Online Casinos in 2024 <br /> <br />
+            <p>Reviews of the Top Online Casinos in 2025 <br /> <br />
 When searching for the best welcome bonus or the best free casino games, it is easy to feel overwhelmed because of the huge selection of venues to choose from. The problem is, how do you decide which casino to play at? This is where BETO comes to your rescue, as we will help you find the best casinos through our detailed online reviews. <br /> <br />
 
 Our team of experts leaves no stone unturned in uncovering the best legal online casino sites that match your needs as a player. We personally test the casinos online to find out how good they are. In addition, we compare sites in the online gambling industry based on several important criteria that secure only trusted sites will be recommended. <br /> <br />

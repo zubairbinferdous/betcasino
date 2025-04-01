@@ -16,12 +16,20 @@ import one from "../assets/casinoOne.png";
 
 
 const Welcome = () => {
+
+    const CurrentMonthYear = () => {
+        const currentDate = new Date();
+        const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+        const year = currentDate.getFullYear(); // Get year
+      
+        return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+      };
     return (
         <div>
             <Header></Header>
               <div className="container-fluid bg-g">
                    <div className="container text-area">
-                    <h5 className='text-white'>DECEMBER 2024</h5>
+                   <h5 className="text-white">{CurrentMonthYear()}</h5>
                     <h3 className="text-white mb-5">
                     Casino Bonus - Guide to finding the best bonus money</h3>  
                     <br /> 

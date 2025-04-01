@@ -12,12 +12,19 @@ import one from "../assets/casinoOne.png";
 import Header from './Header';
 
 const Deposit = () => {
+    const CurrentMonthYear = () => {
+        const currentDate = new Date();
+        const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+        const year = currentDate.getFullYear(); // Get year
+      
+        return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+      };
     return (
         <div>
         <Header></Header>
           <div className="container-fluid bg-g">
                <div className="container text-area">
-                <h5 className='text-white'>DECEMBER 2024</h5>
+               <h5 className="text-white">{CurrentMonthYear()}</h5>
                 <h3 className="text-white mb-5">
                 No Deposit Bonus - Essential Guide To Free Casino Bonuses</h3>  
                 <br />    
@@ -61,7 +68,7 @@ const Deposit = () => {
             <div className="container-fluid">
                  <div className="container">
                      <div className="row">
-                         <h3 className='wel'>How To Get The Best Free No Deposit Bonuses in 2024</h3>
+                         <h3 className='wel'>How To Get The Best Free No Deposit Bonuses in 2025</h3>
                          <div className="bgg img-bgg">
                             <img src={bgg} alt="" className='img-fluid'/>
                          </div>
@@ -77,8 +84,8 @@ const Deposit = () => {
         <div className="row">
     <div className="col-md-6">
         <ul className="toc-list">
-            <li className="toc-item"><span>🎰</span>1. How To Get The Best Free No Deposit Bonuses in 2024</li>
-            <li className="toc-item"><span>🎰</span>2. Free No Deposit Bonus Codes in 2024</li>
+            <li className="toc-item"><span>🎰</span>1. How To Get The Best Free No Deposit Bonuses in 2025</li>
+            <li className="toc-item"><span>🎰</span>2. Free No Deposit Bonus Codes in 2025</li>
             <li className="toc-item"><span>🎰</span>3. What is a Free Bonus No Deposit offer?</li>
             <li className="toc-item"><span>🎰</span>4. Free Casino Bonus - Pros and Cons</li>
             <li className="toc-item"><span>🎰</span>5. Benefits of a Free Bonus For Casino and Slot Games</li>
@@ -117,7 +124,7 @@ Read further about the No Deposit bonus in this detailed gambling article summar
           </div>
 
           <div className="container">
-          <h3 className="section-title mt-5">Free No Deposit Bonus Codes in 2024</h3>
+          <h3 className="section-title mt-5">Free No Deposit Bonus Codes in 2025</h3>
           <div className="section-container custom-bg bgggOne mt-4" >
                       {/* <img src={bggo} alt="" className='img-fluid'/> */}
                       <br /> <br />

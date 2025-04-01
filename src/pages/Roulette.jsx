@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
-import Baccarat from '../assets/Baccarat.webp';
 import casinoLogo from '../assets/casino-logo.png';
-import mentioned from '../assets/mer.jpg';
-import bgg from '../assets/robbbg.webp';
-import bgg2 from '../assets/robggg.webp';
+import bgg2 from '../assets/rfour.webp';
+import Baccarat from '../assets/rone.jpg';
+import bgg from '../assets/rthree.jpg';
+import mentioned from '../assets/rtwo.jpg';
 // import bggo from '../assets/wleOne.webp';
 import c15 from "../assets/5lm1.webp";
 import c16 from "../assets/bigb1.webp";
@@ -14,14 +14,22 @@ import Header from './Header';
 
 
 const Roulette = () => {
+  const CurrentMonthYear = () => {
+    const currentDate = new Date();
+    const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+    const year = currentDate.getFullYear(); // Get year
+  
+    return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+  };
+
     return (
         <div>
         <Header></Header>
           <div className="container-fluid bg-g">
                <div className="container text-area">
-                <h5 className='text-white'>DECEMBER 2024</h5>
+               <h5 className="text-white">{CurrentMonthYear()}</h5>
                 <h3 className="text-white mb-5">
-                Roulette - Learn How to Play and Beat the Game in 2024s</h3>  
+                Roulette - Learn How to Play and Beat the Game in 2025s</h3>  
                 <br />
                  <div className="row">
                     
@@ -73,7 +81,7 @@ const Roulette = () => {
           <div className="container-fluid">
                  <div className="container">
                      <div className="row">
-                         <h3 className='wel'>How to Play Roulette as a Beginner - 2024 Guide</h3>
+                         <h3 className='wel'>How to Play Roulette as a Beginner - 2025 Guide</h3>
                          <div className="bgg img-bgg">
                             <img src={bgg} alt="" className='img-fluid'/>
                          </div>
@@ -90,7 +98,7 @@ const Roulette = () => {
 
   <div className="col-md-6">
     <ul className="toc-list">
-      <li className="toc-item"><span>🎲</span>1. How to Play Roulette as a Beginner - 2024 Guide</li>
+      <li className="toc-item"><span>🎲</span>1. How to Play Roulette as a Beginner - 2025 Guide</li>
       <li className="toc-item"><span>🎲</span>2. What is Roulette - Complete Guide for New Players</li>
       <li className="toc-item"><span>🎲</span>3. Play Roulette Online - The Basic Rules and Principles</li>
       <li className="toc-item"><span>🎲</span>4. American vs European Roulette</li>

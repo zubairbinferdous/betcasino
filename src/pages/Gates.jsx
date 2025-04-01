@@ -338,7 +338,7 @@ OpenOption to buy Free Spins <br /> <br />
                     </div>
                    </div> */}
 
-<div className="container mt-5">
+                <div className="container mt-5">
         <h3 className="section-title">Welcome to Gates of Olympus Online Slot</h3>
     <div className="section-container custom-bg">
         <p>
@@ -352,7 +352,7 @@ This slot has Wild symbols, Multipliers, Nudges, Respins, and more. You can easi
         
     </div>
 
-        </div>
+                </div>
 
                 <div className="container mt-5">
                 <h3 className="section-title">Fishing Theme and Improved Graphics</h3>

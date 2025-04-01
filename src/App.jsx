@@ -17,15 +17,24 @@ import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 
 function App() {
+  const CurrentMonthYear = () => {
+    const currentDate = new Date();
+    const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+    const year = currentDate.getFullYear(); // Get year
+  
+    return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+  };
+  
   return (
     <>
       <div>
         <Header></Header>
         <div className="container-fluid bg-g">
           <div className="container text-area">
-            <h5 className="text-white">DECEMBER 2024</h5>
+            
+            <h5 className="text-white">{CurrentMonthYear()}</h5>
             <h3 className="text-white mb-2">
-              BETO Slots | Free Slot Games & Casino Reviews in 2024
+              BETO Slots | Free Slot Games & Casino Reviews in 2025
             </h3>{" "}
             <br />
             <h3 className="text-white mb-2">

@@ -9,7 +9,7 @@ const Footer = () => {
       {/* <!-- About Section --> */}
       <div className="col-md-3">
         <h5 className="fw-bold">BET SLOTS</h5>
-        <p>Free Slot Machines & Casino Reviews by Certified iGaming Experts in 2024.</p>
+        <p>Free Slot Machines & Casino Reviews by Certified iGaming Experts in 2025.</p>
         <p><i className="bi bi-star-fill text-success"></i> Trustpilot</p>
         <div>
           {/* <a href="#" className="text-white me-2"><i className="bi bi-youtube"></i></a>
@@ -65,7 +65,7 @@ const Footer = () => {
     <div className="row mt-4">
       <div className="col-md-12 text-center">
         <p>BET SLOTS | Tower Business Centre, 2nd floor | Swatar BKR 4013 | Malta | +356 2144 2245</p>
-        <p>Copyright 1999 - 2024. All Rights Reserved.</p>
+        <p>Copyright 1999 - 2025. All Rights Reserved.</p>
       </div>
     </div>
   </div>

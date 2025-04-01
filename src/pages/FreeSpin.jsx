@@ -13,12 +13,19 @@ import c16 from "../assets/bigb1.webp";
 import one from "../assets/casinoOne.png";
 import Header from './Header';
 const FreeSpin = () => {
+    const CurrentMonthYear = () => {
+        const currentDate = new Date();
+        const monthName = currentDate.toLocaleString("default", { month: "long" }); // Get full month name
+        const year = currentDate.getFullYear(); // Get year
+      
+        return <h5 className="text-white">{`${monthName.toUpperCase()} ${year}`}</h5>;
+      };
     return (
         <div>
         <Header></Header>
           <div className="container-fluid bg-g">
                <div className="container text-area">
-                <h5 className='text-white'>DECEMBER 2024</h5>
+               <h5 className="text-white">{CurrentMonthYear()}</h5>
                 <h3 className="text-white mb-5">
                 Free Spins For Online Slots - Play For Free and Bonus Money</h3>  
                 <br />     
@@ -61,7 +68,7 @@ const FreeSpin = () => {
                 <div className="container">
                  <div className="container">
                      <div className="row">
-                         <h3 className='wel'>2024 Guide to Free Spins Bonuses for Popular Slot Games 🎁</h3>
+                         <h3 className='wel'>2025 Guide to Free Spins Bonuses for Popular Slot Games 🎁</h3>
                          <div className="bgg img-bgg">
                             <img src={bgg} alt="" className='img-fluid'/>
                          </div>
@@ -79,7 +86,7 @@ const FreeSpin = () => {
         <div className="row">
     <div className="col-md-6">
         <ul className="toc-list">
-            <li className="toc-item"><span>🎰</span>1. 2024 Guide to Free Spins Bonuses for Popular Slot Games</li>
+            <li className="toc-item"><span>🎰</span>1. 2025 Guide to Free Spins Bonuses for Popular Slot Games</li>
             <li className="toc-item"><span>🎰</span>2. Free casino free spins today for your favourite slot machine</li>
             <li className="toc-item"><span>🎰</span>3. Deposit Free Spins and No Deposit Free Spins Offers</li>
             <li className="toc-item"><span>🎰</span>4. Online Casino Bonus Spins upon registration</li>
