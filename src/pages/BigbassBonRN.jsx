@@ -3,6 +3,7 @@ import cReview11 from '../assets/b444.png';
 import cReview1 from '../assets/b555.webp';
 import cReview111 from '../assets/b666.png';
 import cReview from '../assets/bbbb2.webp';
+import cReview3 from '../assets/bm2.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';
@@ -379,7 +380,7 @@ The monster truck, fishing rod, dragonfly, bait box, and Fish Money symbols are 
 
 The Wild symbol is the cheerful bearded fisherman, who has been featured in several other slots. The Scatter symbol is a hooked bass fish trying to escape by jumping out of the water. <br /> <br />
         
-        <img src={cReview1} alt="" className='img-fluid'/>
+        <img src={cReview3} alt="" className='img-fluid'/>
                 </p>
         
                 </div>

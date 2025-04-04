@@ -3,6 +3,7 @@ import cReview from '../assets/bgTwo.webp';
 import cReview11 from '../assets/ga001.jpeg';
 import cReview1 from '../assets/ga002.jpg';
 import cReview111 from '../assets/ga004.jpg';
+import cReview13 from '../assets/ga23.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';
@@ -315,28 +316,11 @@ In this Gates of Olympus review, you will see what makes this slot special. You 
 
                    <div className="container">
                     <div className="row">
-                    <img src={cReview1} alt="" />   
+                    <img src={cReview13} alt="" />   
                     </div>
                    </div>
 
-                   {/* <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <p>
-                            <strong>Pros:</strong>
-OpenMax Win of 5,000x of your stake <br /> <br />
-
-OpenUp to 5 modifiers in the Free Spins <br /> <br />
-
-OpenFree Spins can be retriggered with a higher Multiplier <br /> <br />
-
-OpenOption to buy Free Spins <br /> <br />
-                            </p>
-                        </div>
-                        <div className="col-md-4"></div>
-                        <div className="col-md-4"></div>
-                    </div>
-                   </div> */}
+               
 
                 <div className="container mt-5">
         <h3 className="section-title">Welcome to Gates of Olympus Online Slot</h3>

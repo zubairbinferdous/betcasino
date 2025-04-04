@@ -3,6 +3,7 @@ import cReview11 from '../assets/bk05.webp';
 import cReview111 from '../assets/bk06.jpg';
 import cReview1 from '../assets/bod1.webp';
 import cReview from '../assets/bod2.jpeg';
+import cReview131 from '../assets/dead01.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
 import tg from '../assets/tg-c.webp';
@@ -386,7 +387,7 @@ The loudspeaker icon is for turning the sound on or off. <br /> <br />
 The Buy Free Spins option is on the top left, and you can use it if you need it. <br /> <br />
 If you don’t know how you can win in this slot, let us help you. When you land matching symbols on adjacent reels from left to right on any payline, you will get a win. This is the standard way to get wins in many slots, so you should be aware of it. <br /> <br />
         
-        <img src={cReview11} alt="" className='img-fluid'/>
+        <img src={cReview131} alt="" className='img-fluid'/>
                 </p>
         
                 </div>

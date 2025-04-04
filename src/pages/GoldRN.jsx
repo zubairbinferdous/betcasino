@@ -1,7 +1,8 @@
 import React from 'react';
+import cReview16 from '../assets/bnew.png';
+import cReview2 from '../assets/g01.jpg';
 import cReview11 from '../assets/g06.png';
 import cReview from '../assets/g11.jpeg';
-import cReview1 from '../assets/g21.avif';
 import cReview111 from '../assets/g404.jpg';
 import lucky from '../assets/lucky.webp';
 import mega from '../assets/mega.webp';
@@ -23,7 +24,7 @@ const GoldRN = () => {
                <div className="row">
                <div className="col-md-8">
                 <div className="bassImg">
-                <img src={cReview} alt="" />   
+                <img src={cReview2} alt="" />   
                 </div>         
                     </div>    
 
@@ -365,7 +366,7 @@ The monster truck, fishing rod, dragonfly, bait box, and Fish Money symbols are 
 
 The Wild symbol is the cheerful bearded fisherman, who has been featured in several other slots. The Scatter symbol is a hooked bass fish trying to escape by jumping out of the water. <br /> <br />
         
-        <img src={cReview1} alt="" className='img-fluid'/>
+        <img src={cReview16} alt="" className='img-fluid'/>
                 </p>
         
                 </div>
